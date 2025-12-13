@@ -1,0 +1,8 @@
+.env
+*.json
+*.db
+*.csv
+__pycache__/
+Database/*.json
+Database/*.csv
+Database/AlmondData.db
