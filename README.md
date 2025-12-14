@@ -24,3 +24,7 @@ ManhattanTachyon/
 ├── Main.py                 # Bot entry point
 └── README.md
 ```
+
+## Disclaimer
+
+This project is an unofficial fan-made tool created for educational and community management purposes. It is not affiliated with Cygames, Inc. or the Uma Musume Pretty Derby franchise. All relevant copyrights and trademarks belong to their respective owners.
