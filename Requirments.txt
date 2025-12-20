@@ -1,0 +1,6 @@
+discord.py
+python-dotenv
+sqlite3
+requests
+asyncio
+

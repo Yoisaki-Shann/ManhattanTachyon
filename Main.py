@@ -13,21 +13,23 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents, case_insensitive=True)
 
-
+# Logging print 
 @bot.event
 async def on_ready():
     print(f"✅ Main System Logged in as {bot.user}")
 
+# Load cogs
 async def Loadextentions():
     await bot.load_extension("cogs.Clubs_Stats")
-    # await bot.load_extension("cogs.Members_Stats")
+    await bot.load_extension("cogs.Members_Stats")
     await bot.load_extension("cogs.Staff")
-    
+    await bot.load_extension("cogs.Daily_fetch")
+
+# Run bot
 async def main():
     async with bot:
         await Loadextentions()
         await bot.start(DiscordToken)
-
 
 if __name__ == '__main__':
     try:

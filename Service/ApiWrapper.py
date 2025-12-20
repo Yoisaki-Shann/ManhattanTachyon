@@ -1,6 +1,5 @@
 import requests
 import dotenv
-import asyncio
 dotenv.load_dotenv()
 import os 
 from datetime import datetime
