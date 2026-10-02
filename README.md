@@ -41,6 +41,12 @@ ManhattanTachyon/
 ├── Main.py                 # Bot entry point
 └── README.md
 ```
+### Credits
+- AmethystEspeon - for helping fix bugs
+
+### API
+
+- Uma.moe 
 
 ## Disclaimer
 
